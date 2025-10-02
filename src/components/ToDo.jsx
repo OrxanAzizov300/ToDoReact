@@ -1,0 +1,21 @@
+import React, { useState } from 'react'
+
+import Form from './Form'
+import TodoList from './TodoList'
+
+const ToDo = () => {
+    const [todos, setTodos] = useState([])
+    
+    
+
+
+
+  return (
+    <div style={{marginTop:"50px"}}>
+        <Form todos={todos} setTodos={setTodos}/>
+        <TodoList todos={todos} setTodos={setTodos}/>
+    </div>
+  )
+}
+
+export default ToDo

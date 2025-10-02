@@ -1,0 +1,30 @@
+.item {
+  width: 100%;        /* take full available width */
+  max-width: 500px;   /* but never larger than 500px */
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+  box-sizing: border-box; /* ensures padding/borders stay inside */
+}
+
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+  box-sizing: border-box;
+  width: 100%;     /* hr will shrink with parent */
+  margin: 0;
+}
+.deleteButton{
+    float: right;
+    padding: 8px 20px;
+    border: none;
+    background-color: #f7ce18;
+    color: white;
+    margin-top: -5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
